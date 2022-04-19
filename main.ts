@@ -1,7 +1,7 @@
 input.onButtonPressed(Button.A, function () {
     led.plotBarGraph(
     input.lightLevel(),
-    led.brightness()
+    255
     )
 })
 input.onButtonPressed(Button.B, function () {
