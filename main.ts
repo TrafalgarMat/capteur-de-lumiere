@@ -1,9 +1,9 @@
-input.onButtonPressed(Button.A, function () {
+input.onButtonPressed(Button.B, function () {
+    basic.clearScreen()
+})
+basic.forever(function () {
     led.plotBarGraph(
     input.lightLevel(),
     255
     )
-})
-input.onButtonPressed(Button.B, function () {
-    basic.clearScreen()
 })
